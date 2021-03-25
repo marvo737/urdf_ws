@@ -7,7 +7,5 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/gisen/urdf_ws/devel:$CMAKE_PREFIX_PATH"
-export PWD='/home/gisen/urdf_ws/build'
-export ROSLISP_PACKAGE_DIRECTORIES='/home/gisen/urdf_ws/devel/share/common-lisp'
-export ROS_PACKAGE_PATH="/home/gisen/urdf_ws/src:$ROS_PACKAGE_PATH"
+export PWD='/home/marvo/urdf_ws/build'
+export ROS_PACKAGE_PATH='/home/gisen/urdf_ws/src:/home/marvo/urdf_ws/src:/opt/ros/melodic/share'

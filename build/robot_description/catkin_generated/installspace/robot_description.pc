@@ -1,4 +1,4 @@
-prefix=/home/gisen/urdf_ws/install
+prefix=/home/marvo/urdf_ws/install
 
 Name: robot_description
 Description: Description of robot_description

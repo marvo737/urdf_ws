@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gisen/urdf_ws/src
+CMAKE_SOURCE_DIR = /home/marvo/urdf_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gisen/urdf_ws/build
+CMAKE_BINARY_DIR = /home/marvo/urdf_ws/build
 
 # Utility rule file for _catkin_empty_exported_target.
 
@@ -63,10 +63,10 @@ robot_description/CMakeFiles/_catkin_empty_exported_target.dir/build: _catkin_em
 .PHONY : robot_description/CMakeFiles/_catkin_empty_exported_target.dir/build
 
 robot_description/CMakeFiles/_catkin_empty_exported_target.dir/clean:
-	cd /home/gisen/urdf_ws/build/robot_description && $(CMAKE_COMMAND) -P CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake
+	cd /home/marvo/urdf_ws/build/robot_description && $(CMAKE_COMMAND) -P CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake
 .PHONY : robot_description/CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 robot_description/CMakeFiles/_catkin_empty_exported_target.dir/depend:
-	cd /home/gisen/urdf_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gisen/urdf_ws/src /home/gisen/urdf_ws/src/robot_description /home/gisen/urdf_ws/build /home/gisen/urdf_ws/build/robot_description /home/gisen/urdf_ws/build/robot_description/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/marvo/urdf_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/marvo/urdf_ws/src /home/marvo/urdf_ws/src/robot_description /home/marvo/urdf_ws/build /home/marvo/urdf_ws/build/robot_description /home/marvo/urdf_ws/build/robot_description/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : robot_description/CMakeFiles/_catkin_empty_exported_target.dir/depend
 

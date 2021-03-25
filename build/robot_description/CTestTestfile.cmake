@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/gisen/urdf_ws/src/robot_description
-# Build directory: /home/gisen/urdf_ws/build/robot_description
+# Source directory: /home/marvo/urdf_ws/src/robot_description
+# Build directory: /home/marvo/urdf_ws/build/robot_description
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

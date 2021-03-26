@@ -3,4 +3,18 @@
     <xacro:include filename="$(find robot_description)/urdf/wheel.urdf.xacro" />
     <xacro:wheel rl="r" parent="body" />
     <xacro:wheel rl="l" parent="body" />
+
+    <gazebo>
+        <plugin name="differential_drive_controller" filename="libgazebo_ros_diff_drive.so">
+            <leftJoint>wheel_l_joint</leftJoint>
+            <rightJoint>wheel_r_joint</rightJoint>
+            <robotBaseFrame>base_link</robotBaseFrame>
+            <wheelSeparation>0.08</wheelSeparation>
+            <wheelDiameter>0.048</wheelDiameter>
+            <publishWheelJointState>true</publishWheelJointState>
+            <odometryTopic>odometry</odometryTopic>
+            <odometryFrame>odometry</odometryFrame>
+        </plugin>
+    </gazebo>
+
 </robot>
